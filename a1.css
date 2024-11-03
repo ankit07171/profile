@@ -59,7 +59,7 @@ height: 30px;
 width: 180px;
 background-color: red;
 transform: translate(-50%,-50%);
-animation: slideIn 3s linear forwards; 
+animation: slideIn 2s linear forwards; 
 z-index: 1;}
    
 @keyframes slideIn {
@@ -68,7 +68,7 @@ z-index: 1;}
       width: 180px;opacity: 1;
     }
     100% {  
-        width: 0;opacity: 0;
+        width: 0;opacity: 0.5;
          
     }
 } 
@@ -262,7 +262,7 @@ p{
 
 
  
-@media (max-width: 320px) {
+@media (max-width: 340px) {
     .hidden_list {
         display: block; 
     }
