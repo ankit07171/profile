@@ -113,7 +113,8 @@ right: 0;
 .section a{color: white;}
 .head .hidden_list1 {
     margin-left: auto;
-    position: relative; /* Create positioning context */
+    position: relative;
+    z-index: 1000; /* Create positioning context */
 }
 .head .hidden_list1::after {
     content: "";
@@ -266,9 +267,12 @@ p{
     .hidden_list {
         display: block; 
     }
+    .hidden_list1 .hidden_list{background-size: auto;}
     .headdd {
         display: none;  
     }
+    .title{padding-top: 15px;}
+    .head{height: 15vh;}
     .main{width: 105vw;height: 105vh;}
     #home{width: 100vw;height: 108vh;}
     .cont{flex-direction: column;height: 145vh; } 
@@ -276,7 +280,7 @@ p{
         height: 108vh;
         width: 70vw;
     }
-    .head .title{font-size: 1.1em;}
+    .head .title{font-size: 0.8em;}
     .work-type .type{ 
         position: relative;
         z-index: 2;
@@ -294,6 +298,7 @@ p{
         color: black;
         z-index: 2;
     }
+    .about-container{padding-top: 80px;}
 
 }
 
