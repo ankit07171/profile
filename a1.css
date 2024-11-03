@@ -267,12 +267,12 @@ p{
     .hidden_list {
         display: block; 
     }
-    .hidden_list1 .hidden_list{background-size: auto;}
+    .hidden_list1 .hidden_list{z-index: 1000;}
     .headdd {
         display: none;  
     }
     .work-type .title{padding-top: 45px;}
-    .head{height: 11vh;}
+    .head{height: 10vh;}
     .main{width: 105vw;height: 105vh;}
     #home{width: 100vw;height: 108vh;}
     .cont{flex-direction: column;height: 145vh; } 
