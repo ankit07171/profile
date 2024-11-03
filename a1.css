@@ -284,22 +284,22 @@ p{
     .header h1 {
         font-size: 3.5em;
         padding: 70px 34px 0px; }
-    .head .title{font-size: 1.7em;}
+    .head .title{font-size: 1.5em;}
     .work-type .type{ 
         position: relative;
         z-index: 2;
         padding: 22px ;
         margin: 25px 35px 29px;
-        font-size:2em;
+        font-size:2.1em;
         border-radius: 20px; 
         text-align: center;
         box-shadow: 0 0 5px 3px rgba(0,0,0,0.9);
-        cursor: pointer;
+        cursor: pointer; 
     }
     .work-type .type a{
         position: relative;
         text-decoration: none;
-        color: black;
+        color: rgba(255,255,255,0.9);
         z-index: 2;
     }
     .about-container{padding-top: 120px;height: 105vh;}
