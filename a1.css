@@ -107,9 +107,10 @@ right: 0;
 } 
 .section .list{
     margin-top: 20px; 
-    text-decoration: none;
-    
+     
+    list-style-type: none; 
 }
+.section a{color: white;}
 .head .hidden_list1 {
     margin-left: auto;
     position: relative; /* Create positioning context */
