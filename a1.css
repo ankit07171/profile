@@ -262,14 +262,14 @@ p{
 
 
  
-@media (max-width: 385px) {
+@media (max-width: 400px) {
     .hidden_list {
         display: block; 
     }
     .headdd {
         display: none;  
     }
-    .main{width: 105vw;}
+    .main{width: 105vw;height: 105vh;}
     #home{width: 100vw;height: 108vh;}
     .cont{flex-direction: column;height: 145vh; } 
     .section {
