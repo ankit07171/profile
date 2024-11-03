@@ -284,7 +284,7 @@ p{
     .header h1 {
         font-size: 3.5em;
         padding: 70px 34px 0px; }
-    .head .title{font-size: 1.1em;}
+    .head .title{font-size: 0.8em;}
     .work-type .type{ 
         position: relative;
         z-index: 2;
@@ -299,7 +299,7 @@ p{
     .work-type .type a{
         position: relative;
         text-decoration: none;
-        color: rgba(255,255,255,0.9);
+        color: rgb(255,255,255);
         z-index: 2;
     }
     .about-container{padding-top: 120px;height: 105vh;}
