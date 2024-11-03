@@ -284,7 +284,7 @@ p{
     .header h1 {
         font-size: 3.5em;
         padding: 70px 34px 0px; }
-    .head .title{font-size: 0.8em;}
+    .head .title{font-size: 1.3em;}
     .work-type .type{ 
         position: relative;
         z-index: 2;
@@ -310,10 +310,10 @@ p{
     top: 101px;
     left: 180px;
     height: 59px;
-    width: 330px;
+    width: 80vw;
     background-color: red;
     transform: translate(-50%, -50%);
-    animation: slideIn 2s linear forwards;
+    animation: slideIn 2s linear forwards 0.5s;
     z-index: 1;
 }
 }
