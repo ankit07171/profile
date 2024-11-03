@@ -272,7 +272,7 @@ p{
         display: none;  
     }
     .work-type .title{padding-top: 45px;}
-    .head{height: 15vh;}
+    .head{height: 11vh;}
     .main{width: 105vw;height: 105vh;}
     #home{width: 100vw;height: 108vh;}
     .cont{flex-direction: column;height: 145vh; } 
