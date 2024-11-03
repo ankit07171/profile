@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SOHIT YADAV</title>
+    <link rel="stylesheet" href="a.css" />
+  </head>
+  <body>
+    <section id="home">
+<div class="head">
+    <img src="img2.png" height="50vh">
+    <p class="title"><span>S</span>ohit
+    <span>Y</span>adav</p>
+<ul class="headdd">
+    <li><a href="#home">HOME</a></li>
+    <li><a href="#work-img">PROJECTS</a></li>
+    <li><a href="#about">ABOUT</a></li>
+    <li><a href="#contact">CONTACT</a> </li></ul>
+
+<div class="hidden_list1">
+<img src="hamburger-menu-bar.png" class="hidden_list"  height="60px" width="60px">
+    <ul class="section">
+      <img src="download (1).png" class="image" height="50px" width="50px">
+      <div class="list">
+      <li><a href="#home">HOME</a></li>
+      <li><a href="#work-img">PROJECTS</a></li>
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#contact">CONTACT</a> </li></ul>
+</div>
+</div>
+<div class="main">
+    <div class="header">
+ <h1 class="first">INTERIOR </h1>   
+ <h1 class="second ">DESIGNER </h1>
+</div>
+</div>
+    </section>
+
+    <section id="work-img"> 
+     
+      <div class="work-type">
+        <h1 class="title">PROJECTS</h1>
+        <div class="type  carpenter"><a href="11.png">Carpenter</a></div>
+        <div class="type electric"><a href="13.jpg">Electric</a></div>
+        <div class="type paint"><a href="12.png">Painter</a></div>
+        <div class="type pop"><a href="13.png">POP</a></div>
+        <div class="type tiler"><a href="14.png">Tiler</a></div>
+      </div>
+    </section>
+   <section id="about">
+      <div class="about-container">
+        <h1 class="about-title">About <span>Me</span></h1>
+        <div class="col-left">
+          <div class="about-img">
+            <img src="img4.jpg" alt="img" height="250px" width="200px" border="3px solid" />
+          </div>
+        </div>
+
+        <div class="col-right">
+          <p>
+            Hello! I'm Sohit Yadav, a passionate interior designer with over 25
+            years of experience in designing both residential and commercial
+            spaces. My approach combines functionality and aesthetics to create
+            spaces that reflect my clients' personalities and needs.
+          </p>
+        </div>
+      </div>
+    </section>  
+      <section id="contact">
+      <div class="cont">
+        <div class="phone">
+        <img src="1.png" alt="img">
+        <p>PHONE:8652768922</p>
+    </div>
+
+    <div class="mail">
+        <img src="2.png" alt="img">
+        <p>E-MAIL:sohityadav@97gmail.com</p>
+    </div>
+
+    <div class="address">
+          <img src="3.png" alt="img">
+        <p>ADDRESS:
+          JayPrakash Nagar, Vidyavihar(EAST), Mumbai-77</p>
+    </div></div>
+    </section>  
+  </body>
+  <script>
+    document.getElementsByClassName("image")[0].addEventListener("click", () => {
+      const sections = document.getElementsByClassName("section");
+      for (let i = 0; i < sections.length; i++) {
+        sections[i].style.display = "none";
+      }
+    });
+    document.getElementsByClassName("hidden_list")[0].addEventListener("click", () => {
+      const sections = document.getElementsByClassName("section");
+      for (let i = 0; i < sections.length; i++) {
+        sections[i].style.display = "flex";
+      }
+    });
+   
+
+
+    window.addEventListener('scroll', function() {
+    const header = document.getElementsByClassName('head')[0];  
+    const menuItems = header.getElementsByTagName('a'); 
+    if (window.scrollY > 50) { 
+        header.style.backgroundColor = "rgba(0,0,0,0.7)";
+        header.style.color = "white";  
+        for (let i = 0; i < menuItems.length; i++) {
+            menuItems[i].style.color = "white";     
+        }
+    }
+    //  else {
+    //     header.style.backgroundColor = "rgba(0,0,0,0.315)";
+    //     header.style.color = "black";  
+    //     for (let i = 0; i < menuItems.length; i++) {
+    //         menuItems[i].style.color = "black"; 
+    //     }
+    //}
+});
+  </script>
+</html>  
