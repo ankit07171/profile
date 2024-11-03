@@ -299,7 +299,7 @@ p{
         z-index: 2;
     }
     .about-container{padding-top: 120px;}
-
+.work-type{height: 105vh;}
 }
 
 @media (min-width: 769px) {
