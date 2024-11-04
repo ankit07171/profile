@@ -122,5 +122,15 @@
     //     }
     //}
 });
+
+document.querySelectorAll('.type').forEach(typeDiv => {
+  typeDiv.addEventListener('click', function () {
+    const link = typeDiv.querySelector('a'); 
+    if (link) {
+      window.location.href = link.href;  
+    }
+  });
+});
+
   </script>
 </html>  
